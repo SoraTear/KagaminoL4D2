@@ -53,7 +53,7 @@ chmod +x l4d2StartServer.sh
 此外，三方图以vpk形式也安装到`addons`下
 ### 功能类
 [Tickrate Enabler](https://github.com/accelerator74/Tickrate-Enabler/releases/tag/build)：服务器设置100tick  
-以下插件来自[豆瓣酱插件整合包](http://l4d.vihh.net/forum.php?mod=viewthread&tid=75422)：
+以下插件来自[豆瓣酱插件整合包](http://l4d.vihh.net/forum.php?mod=viewthread&tid=75422)：  
 Left 4 DHooks：允许插件调用游戏引擎内部功能  
 WeaponHandling：允许插件修改武器行为  
 原生键值函数库：允许插件调用游戏自带的键值函数  
@@ -73,7 +73,7 @@ SourceScramble：允许插件补丁游戏引擎
 |广州增城|8.06|1|2396847377|[Part1](https://steamcommunity.com/sharedfiles/filedetails/?id=2396847377)|
 |广西灵山|3.1|3|3583374422<br>3583375624<br>3583381403|[Part1](https://steamcommunity.com/sharedfiles/filedetails/?id=3583374422)<br>[Part2](https://steamcommunity.com/sharedfiles/filedetails/?id=3583375624)<br>[Part3](https://steamcommunity.com/sharedfiles/filedetails/?id=3583381403)|
 ### 修复类
-以下插件来自[豆瓣酱插件整合包](http://l4d.vihh.net/forum.php?mod=viewthread&tid=75422)：
+以下插件来自[豆瓣酱插件整合包](http://l4d.vihh.net/forum.php?mod=viewthread&tid=75422)：  
 修复地图过渡数据遗产：清理换图残留数据  
 修复电击器救起存活的幸存者：修复电击器  
 解决 Linux 系统 CFG 不加载：配置命令缓冲区修复
@@ -98,3 +98,4 @@ cl_interp 0
 新建会话`screen -S SESSION_NAME`  
 会话列表`screen -ls`  
 恢复对话`screen -r SESSION_NAME`
+[TODO](./TODO.md)
