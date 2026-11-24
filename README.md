@@ -2,6 +2,7 @@
 <p align="center">
   <img src="https://kagaminol4d2.surge.sh/host.png" width="800">
 </p>
+
 >[玩家点我](#玩家须知)
 
 本仓库收录服务器的开设、插件及维护信息
