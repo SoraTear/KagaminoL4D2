@@ -97,5 +97,5 @@ cl_interp 0
 监听命令`Ctrl + A`；命令：托盘会话`D`、退出会话`K`  
 新建会话`screen -S SESSION_NAME`  
 会话列表`screen -ls`  
-恢复对话`screen -r SESSION_NAME`
+恢复对话`screen -r SESSION_NAME`  
 [TODO](./TODO.md)
