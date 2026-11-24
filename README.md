@@ -1,4 +1,7 @@
 # 鏡野屋的求生之路2服务器
+<p align="center">
+  <img src="https://kagaminol4d2.surge.sh/host.png" width="800">
+</p>
 >[玩家点我](#玩家须知)
 
 本仓库收录服务器的开设、插件及维护信息
@@ -52,9 +55,13 @@ chmod +x l4d2StartServer.sh
 包括服务器的所有插件，均安装在`addons`和`cfg`下  
 此外，三方图以vpk形式也安装到`addons`下
 ### 功能类
-[Tickrate Enabler](https://github.com/accelerator74/Tickrate-Enabler/releases/tag/build)：服务器设置60tick  
-以下插件来自[豆瓣酱插件整合包](http://l4d.vihh.net/forum.php?mod=viewthread&tid=75422)：  
-Left 4 DHooks：允许插件调用游戏引擎内部功能  
+[Tickrate Enabler](https://github.com/accelerator74/Tickrate-Enabler/releases/tag/build)：服务器设置60tick
+[Left 4 DHooks](https://forums.alliedmods.net/showthread.php?t=321696)：允许插件调用游戏引擎内部功能  
+[Multi-Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)：彩色聊天文字  
+[Actions](https://github.com/Vinillia/actions.ext/actions/runs/33263559356)：Nextbot行为监听  
+[l4d2_skill_detect](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_skill_detect)：精彩表现显示  
+[l4d2_item_hint](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_item_hint)：标点插件  
+以下插件来自[豆瓣酱插件整合包](http://l4d.vihh.net/forum.php?mod=viewthread&tid=75422)：   
 WeaponHandling：允许插件修改武器行为  
 原生键值函数库：允许插件调用游戏自带的键值函数  
 原生投票函数库：允许插件进行自定义投票  
@@ -75,6 +82,7 @@ SourceScramble：允许插件补丁游戏引擎
 |广州增城|8.06|1|2396847377|[Part1](https://steamcommunity.com/sharedfiles/filedetails/?id=2396847377)|
 |广西灵山|3.1|3|3583374422<br>3583375624<br>3583381403|[Part1](https://steamcommunity.com/sharedfiles/filedetails/?id=3583374422)<br>[Part2](https://steamcommunity.com/sharedfiles/filedetails/?id=3583375624)<br>[Part3](https://steamcommunity.com/sharedfiles/filedetails/?id=3583381403)|
 ### 修复类
+[Use Priority Patch](https://forums.alliedmods.net/showpost.php?p=2718571&postcount=1)：解决遮挡交互目标的问题  
 以下插件来自[豆瓣酱插件整合包](http://l4d.vihh.net/forum.php?mod=viewthread&tid=75422)：  
 修复地图过渡数据遗产：清理换图残留数据  
 修复电击器救起存活的幸存者：修复电击器  
@@ -90,7 +98,10 @@ cl_interp_ratio 1
 cl_interp 0
 ```
 如果想玩三方图，需要参照[这里](#三方图列表)在创意工坊订阅对应的三方图（如果有必需订阅在订阅时选“全部订阅”），进入游戏等待“附加内容”转好并确认启用了三方图方可进入服务器游玩  
-对插件有建议?提出Pull Request!
+看不到喷漆：游戏内选项→多人联机→禁用喷图改为“否”，自定义服务器内容改为“无声音”  
+想自己做喷漆[看这里](https://www.bilibili.com/video/BV1Ld4y1E7J4)  
+启用控制台：游戏内选项→键盘/鼠标→允许使用开发者控制台改为“已启用”  
+对插件有建议?欢迎提出Pull Request!
 ## 维护
 启动服务器：`./l4d2StartServer.sh`  
 关闭服务器：`quit`  
