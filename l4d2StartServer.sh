@@ -1,1 +1,1 @@
-/home/server/Steam/l4d2/srcds_run -game left4dead2 -insecure +hostport 27015 -condebug -tickrate 60 +map c1m2_streets +exec server.cfg
+/home/server/Steam/l4d2/srcds_run -game left4dead2 -nomaster -insecure +hostport 27015 -condebug -tickrate 60 +map c1m2_streets +exec server.cfg

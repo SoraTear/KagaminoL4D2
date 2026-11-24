@@ -41,7 +41,7 @@ app_update 222860 validate
 在`cfg`下新建`server.cfg`，配置服务器基础设置  
 最后在`/home/server`下配置启动脚本`l4d2StartServer.sh`：
 ```Shell
-/home/server/Steam/l4d2/srcds_run -game left4dead2 -insecure +hostport 27015 -condebug -tickrate 60 +map c1m2_streets +exec server.cfg
+/home/server/Steam/l4d2/srcds_run -game left4dead2 -nomaster -insecure +hostport 27015 -condebug -tickrate 60 +map c1m2_streets +exec server.cfg
 ```
 然后
 ```Shell
@@ -65,6 +65,8 @@ SourceScramble：允许插件补丁游戏引擎
 生还者对女巫的伤害排名：顾名思义  
 生还者对坦克的伤害排名：顾名思义  
 幸存者死亡和被制服提示：顾名思义  
+生还者或感染者使用喷漆时提示：顾名思义  
+坦克特感女巫血量显示和坦克死亡提示：顾名思义  
 排行榜插件：一个功能很多的HUD
 ### 三方图列表
 此条目记录当前服务器所用的三方图及其对应的vpk号  
