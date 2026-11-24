@@ -56,7 +56,7 @@ chmod +x l4d2StartServer.sh
 包括服务器的所有插件，均安装在`addons`和`cfg`下  
 此外，三方图以vpk形式也安装到`addons`下
 ### 功能类
-[Tickrate Enabler](https://github.com/accelerator74/Tickrate-Enabler/releases/tag/build)：服务器设置60tick
+[Tickrate Enabler](https://github.com/accelerator74/Tickrate-Enabler/releases/tag/build)：服务器设置60tick  
 [Left 4 DHooks](https://forums.alliedmods.net/showthread.php?t=321696)：允许插件调用游戏引擎内部功能  
 [Multi-Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)：彩色聊天文字  
 [Actions](https://github.com/Vinillia/actions.ext/actions/runs/33263559356)：Nextbot行为监听  
