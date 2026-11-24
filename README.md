@@ -41,7 +41,7 @@ app_update 222860 validate
 在`cfg`下新建`server.cfg`，配置服务器基础设置  
 最后在`/home/server`下配置启动脚本`l4d2StartServer.sh`：
 ```Shell
-/home/server/Steam/l4d2/srcds_run -game left4dead2 -insecure +hostport 27015 -condebug -tickrate 100 +map c1m2_streets +exec server.cfg
+/home/server/Steam/l4d2/srcds_run -game left4dead2 -insecure +hostport 27015 -condebug -tickrate 60 +map c1m2_streets +exec server.cfg
 ```
 然后
 ```Shell
@@ -52,7 +52,7 @@ chmod +x l4d2StartServer.sh
 包括服务器的所有插件，均安装在`addons`和`cfg`下  
 此外，三方图以vpk形式也安装到`addons`下
 ### 功能类
-[Tickrate Enabler](https://github.com/accelerator74/Tickrate-Enabler/releases/tag/build)：服务器设置100tick  
+[Tickrate Enabler](https://github.com/accelerator74/Tickrate-Enabler/releases/tag/build)：服务器设置60tick  
 以下插件来自[豆瓣酱插件整合包](http://l4d.vihh.net/forum.php?mod=viewthread&tid=75422)：  
 Left 4 DHooks：允许插件调用游戏引擎内部功能  
 WeaponHandling：允许插件修改武器行为  
@@ -81,10 +81,10 @@ SourceScramble：允许插件补丁游戏引擎
 在自己的 Steam 求生之路2安装目录（库右键 Left 4 Dead 2 → 属性 → 已安装文件 → 浏览）中找到left4dead2文件夹 → cfg文件夹  
 在cfg文件夹下新建一个文件名为`autoexec.cfg`，复制以下内容并保存：
 ```javascript
-rate 30000
-cl_cmdrate 100
-cl_updaterate 100
-cl_interp_ratio 0
+rate 60000
+cl_cmdrate 60
+cl_updaterate 60
+cl_interp_ratio 1
 cl_interp 0
 ```
 如果想玩三方图，需要参照[这里](#三方图列表)在创意工坊订阅对应的三方图（如果有必需订阅在订阅时选“全部订阅”），进入游戏等待“附加内容”转好并确认启用了三方图方可进入服务器游玩  
@@ -92,10 +92,14 @@ cl_interp 0
 ## 维护
 启动服务器：`./l4d2StartServer.sh`  
 关闭服务器：`quit`  
-查询状态：`status`
+查询状态：`status`  
+刷新终端：`stty sane`
 ### screen使用
 监听命令`Ctrl + A`；命令：托盘会话`D`、退出会话`K`  
 新建会话`screen -S SESSION_NAME`  
 会话列表`screen -ls`  
 恢复对话`screen -r SESSION_NAME`  
-[TODO](./TODO.md)
+### 系统资源
+存储空间 `df -h`  
+处理器内存 `top -d 1`
+### [TODO](./TODO.md)
