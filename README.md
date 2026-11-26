@@ -82,6 +82,13 @@ SourceScramble：允许插件补丁游戏引擎
 |:---:|:---:|:---:|:---:|:---:|
 |广州增城|8.06|1|2396847377|[Part1](https://steamcommunity.com/sharedfiles/filedetails/?id=2396847377)|
 |广西灵山|3.1|3|3583374422<br>3583375624<br>3583381403|[Part1](https://steamcommunity.com/sharedfiles/filedetails/?id=3583374422)<br>[Part2](https://steamcommunity.com/sharedfiles/filedetails/?id=3583375624)<br>[Part3](https://steamcommunity.com/sharedfiles/filedetails/?id=3583381403)|
+|Warcelona|-|1|1910147798|[Part1](https://steamcommunity.com/sharedfiles/filedetails/?id=1910147798)|
+|Farewell Chenming|4.0|1|788564919|[Part1](https://steamcommunity.com/sharedfiles/filedetails/?id=788564919)|
+|Day Break|4|1|180925247|[Part1](https://steamcommunity.com/sharedfiles/filedetails/?id=180925247)|
+|A Dam Mission|-|1|121078656|[Part1](https://steamcommunity.com/sharedfiles/filedetails/?id=121078656)|
+|Surrounded by the Dead 2|-|1|285195683|[Part1](https://steamcommunity.com/sharedfiles/filedetails/?id=285195683)|
+|Source of Infection|5|1|1740044013|[Part1](https://steamcommunity.com/sharedfiles/filedetails/?id=1740044013)|
+|旅行日|-|1|1409426103|[Part1](https://steamcommunity.com/sharedfiles/filedetails/?id=1409426103)|
 ### 修复类
 [Use Priority Patch](https://forums.alliedmods.net/showpost.php?p=2718571&postcount=1)：解决遮挡交互目标的问题  
 以下插件来自[豆瓣酱插件整合包](http://l4d.vihh.net/forum.php?mod=viewthread&tid=75422)：  
